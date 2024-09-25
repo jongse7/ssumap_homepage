@@ -1,6 +1,13 @@
 import "./App.css";
 
 function App() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/app_release.apk";
+    link.download = "app_release.apk";
+    link.click();
+  };
+
   return (
     <>
       <div className="w-screen h-screen bg-[#262626]">
@@ -14,13 +21,12 @@ function App() {
             <div>내가 커스텀하는</div>
             <div>숭실대 스터디 공간 지도</div>
           </div>
-          <a
-            href="/assets/ssu_map.apk"
-            download
-            className="mt-[2rem] bg-[#0085FF] text-white rounded-md font-semibold px-[0.75rem] py-[0.5rem] hover:bg-[#006FCC] active:bg-[#0056A3] transition-colors duration-200 ease-in-out"
+          <button
+            onClick={handleDownload}
+            className="mt-[2rem] bg-[#0085FF] text-white rounded-md font-semibold px-[0.75rem] py-[0.5rem] active:bg-[#0066cc] transition duration-150 ease-in-out"
           >
             SSUMAP 다운로드
-          </a>
+          </button>
         </div>
       </div>
     </>
