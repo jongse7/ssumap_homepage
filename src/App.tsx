@@ -17,7 +17,7 @@ function App() {
           <a
             href="/assets/app_release.apk"
             download
-            className="mt-[2rem] bg-[#0085FF] text-white rounded-md font-semibold px-[0.75rem] py-[0.5rem]"
+            className="mt-[2rem] bg-[#0085FF] text-white rounded-md font-semibold px-[0.75rem] py-[0.5rem] hover:bg-[#006FCC] active:bg-[#0056A3] transition-colors duration-200 ease-in-out"
           >
             SSUMAP 다운로드
           </a>
