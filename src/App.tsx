@@ -3,8 +3,8 @@ import "./App.css";
 function App() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `${import.meta.env.BASE_URL}assets/app_release.apk`;
-    link.download = "app_release.apk";
+    link.href = `${import.meta.env.BASE_URL}assets/ssumap.apk`;
+    link.download = "ssumap.apk";
     link.click();
   };
 
