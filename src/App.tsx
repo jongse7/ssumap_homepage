@@ -15,7 +15,7 @@ function App() {
             <div>숭실대 스터디 공간 지도</div>
           </div>
           <a
-            href="/assets/app_release.apk"
+            href="/assets/ssu_map.apk"
             download
             className="mt-[2rem] bg-[#0085FF] text-white rounded-md font-semibold px-[0.75rem] py-[0.5rem] hover:bg-[#006FCC] active:bg-[#0056A3] transition-colors duration-200 ease-in-out"
           >
